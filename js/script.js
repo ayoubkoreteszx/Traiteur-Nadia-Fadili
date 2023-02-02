@@ -22,7 +22,7 @@ window.onscroll = () =>{
 document.querySelectorAll('.theme-toggler .theme-btn').forEach(btn =>{
   
   btn.onclick = () =>{
-    let color = btn.style.background;
+    let color = "rgb(233, 249, 7)";
     document.querySelector(':root').style.setProperty('--main-color', color);
   }
 
